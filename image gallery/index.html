@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="indian">indian</span>
+        <span class="item" data-name="sweet">Sweet</span>
+        <span class="item" data-name="noodles">noodles</span>
+        <span class="item" data-name="burger">burger</span>
+        <span class="item" data-name="french fries">french fries</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="indian"><span><img src="images/1.jpg" alt=""></span></div>
+      <div class="image" data-name="indian"><span><img src="images/2.jpg" alt=""></span></div>
+      <div class="image" data-name="indian"><span><img src="images/3.jpg" alt=""></span></div>
+      <div class="image" data-name="sweet"><span><img src="images/4.jpg" alt=""></span></div>
+      <div class="image" data-name="sweet"><span><img src="images/5.jpg" alt=""></span></div>
+      <div class="image" data-name="noodles"><span><img src="images/6.jpg" alt=""></span></div>
+      <div class="image" data-name="burger"><span><img src="images/7.jpg" alt=""></span></div>
+      <div class="image" data-name="french fries"><span><img src="images/8.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
